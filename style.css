@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif !important;
 }
+html{
+    scroll-behavior: smooth;
+}
 .home{
     width: 100%;
     height: 100vh;
@@ -23,6 +26,9 @@ nav a {
     margin-left: 30px;
     margin-top: 30px;
     font-size: 14px;
+}
+nav a:hover{
+    color:#26A398;
 }
 nav {
     /* border: 2px solid red; */
@@ -457,6 +463,13 @@ hr{
     font-size: 0.9vw;
     font-weight: 600;
     margin-block: 10px;
+}
+.lists a {
+    text-decoration: none;
+    color: black;
+}
+.lists a :hover{
+    color: #26A398;
 }
 .social p {
     font-size: 1vw;
